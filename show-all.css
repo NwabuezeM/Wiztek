@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: gray;
+    color: aliceblue;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16pt;
+}
+nav a:hover{
+    color: blue;
+}
+.project-link{
+    box-shadow: 2px #8470ff;
+    border-radius: 3px;
+}
+#projects{
+    position: relative;
+    top: 0;
+    background: gray;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+.project-img{
+    width: 320px;
+    height: 300px;
+    object-fit: cover;
+}
+.project-container{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 18px;
+}
+.projects-desc{
+    width: fit-content;
+    margin: 0 auto;
+    color: aliceblue;
+    border-bottom: 1px solid aliceblue;
+}
+.desc{
+    position: relative;
+    top: 12px;
+}
+.project-title{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 16pt;
+    color: aliceblue;
+}
+.code{
+    color: gray;
+    transition: 0.4s ease-in-out;
+}
+.project-container:hover .code{
+    color: orange;
+}
+footer p{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+footer a{
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0 40px 10px 10px;
+    text-align: center;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 550px){
+    .project-container{
+        display: block;
+        margin-bottom: 0;
+    }
+}
