@@ -184,10 +184,11 @@ footer a{
         height: fit-content;
     }
     nav ul{
-        display: block;
+        display: flex;
+        margin: 10px;
     }
     nav li{
-        padding: 0;
+        padding: 10px;
     }
     nav li:hover{
         max-width: fit-content;
