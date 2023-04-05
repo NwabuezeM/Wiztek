@@ -31,8 +31,11 @@ body{
     background-color: aliceblue;
     color: brown;
 }
-.jumbotron{
-    height: 100vh;
+.jumbotron h1{
+    font-size: 36pt;
+}
+.jumbotron p{
+    font-size: 24pt;
 }
 .white{
     color: aliceblue;
@@ -93,38 +96,6 @@ footer a{
   #welcome-section{
     width: 100%;
   }
-    .project-container{
-        width: 100%;
-        display: block;
-        margin-bottom: 0;
-    }
-    .project-img{
-      width: 250px;
-    }
-    #navbar{
-        height: fit-content;
-    }
-    nav ul{
-        display: flex;
-        margin: 10px;
-    }
-    nav li{
-        padding: 5px;
-    }
-    nav li:hover{
-        max-width: fit-content;
-    }
-    .welcome-section{
-        padding: 10px;
-        width: 90%;
-    }
-    .big-text{
-        font-size: 24pt;
-    }
-    .small-text{
-        font-size: 14pt;
-        margin: 10px;
-    }
     .social{
         display: grid;
         grid-template-columns: auto auto auto;
@@ -134,28 +105,6 @@ footer a{
     }
 }
 @media only screen and(max-width: 480px){
-    .project-img{
-        width: 200px;
-        height: 200px;
-    }
-    #welcome-section{
-        width: 90%;
-    }
-    #projects{
-        width: 100%;
-    }
-    .big-text{
-        font-size: 20pt;
-    }
-    .small-text{
-        font-size: 10pt;
-        margin: 10px;
-    }
-}
-@media only screen and (max-width: 300px){
-    .project-img{
-        max-width: 180px;
-    }
     #contacts{
         width: 100%;
     }
