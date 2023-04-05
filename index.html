@@ -4,137 +4,191 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>New Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="port_folio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="new_portfolio.css">
+  <link rel="stylesheet" href="sidebarNavigation.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="sidebarNavigation.js"></script>
 </head>
 <body>
-    <nav id="navbar">
-        <ul class="nav-items">
-            <li><a href="#welcome-section">About</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <nav class="navbar navbar-inverse sidebarNavigation" data-sidebarClass="navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle left-navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="https://wizztech.netlify.app/">WIZZTECH</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
     </nav>
-    <section id="welcome-section">
-        <div class="welcome-section">
-        <h1><span class="big-text">Hello, my name is Okemini Nwabueze Wisdom</span> <br>
-            <span class="small-text">I have a Higher National Diploma (Distinction) in electrical engineering and am quickly moving into the field of software engineering and web development.</span>
-        </h1>
-    </div>
-    </section>
-    <section id="projects">
-        <div class="projects-desc">
-        <h1 class="desc">
-            These are some of my projects
-        </h1>
-    </div>
-    <div class="project-container">
-            <a href="Tribute.html" target="_blank" class="project-link project-tile">
-                <img src="https://i.ibb.co/4sSj7MZ/tribute-image.png" alt="Tribute page image"
-                class="project-img">
-                <p class="project-tile">
-                    <span class="code">&lt;</span>
-            Tribute Page
-            <span class="code">&#47;&gt;</span>
+    <div class="container-fluid">
+        <section id="welcome-section">
+            <div class="container">
+                <div class="jumbotron">
+                    <h1 class="text-warning">Hello, my name is Okemini Nwabueze Wisdom</h1>
+                        <p class="text-warning">I have a Higher National Diploma (Distinction) in electrical engineering and am quickly moving into the field of software engineering and web development.</span>
+                        </p>
+                            </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="page-header">
+                <h1 class="text-center white">
+                    These are some of my projects
+                </h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="Tribute.html" target="_blank">
+                                <img src="https://i.ibb.co/4sSj7MZ/tribute-image.png" alt="Tribute page image"
+                                class="img-responsive img-rounded">
+                                <div class="caption">
+                                    <p class="text-center white">   <span class="code">&lt;</span> Tribute Page
+                                        <span class="code"> &#47;&gt;</span></p>
+                                </div>
+                                </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="technical.html" target="_blank">
+                                <img src="https://i.ibb.co/S0BQb0p/technical-documentation.png" alt="technical-documentation"
+                                class="img-responsive img-rounded">
+                                <div class="caption">
+                                    <p class="text-center white">
+                                        <span class="code">&lt;</span> Technical Documentation
+                                        <span class="code"> &#47;&gt;</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                        <a href="skylines.html" target="_blank">
+                            <img src="https://i.ibb.co/7XtxptJ/Skylines.png" alt="Skylines" class="img-responsive img-rounded">
+                             <div class="caption">
+                                <p class="text-center white">   <span class="code">&lt;</span> Skylines
+                                    <span class="code"> &#47;&gt;</span></p>
+                             </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="penguin.html" target="_blank">
+                                <img src="https://i.ibb.co/4msNJjN/Penguin.png" alt="Penguin"
+                                class="img-responsive img-rounded">
+                                <div class="caption">
+                                    <p class="text-center white">   <span class="code">&lt;</span> Penguin
+                                        <span class="code"> &#47;&gt;</span></p>
+                                </div>
+                                </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="picasso.html" target="_blank">
+                                <img src="https://i.ibb.co/sRrrYQD/Picasso.png" alt="Picasso"
+                                class="img-responsive img-rounded">
+                                <div class="caption">
+                                    <p class="text-center white">   <span class="code">&lt;</span> Picasso
+                                        <span class="code"> &#47;&gt;</span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                        <a href="ferris_wheel.html" target="_blank">
+                            <img src="https://i.ibb.co/M8HbwzQ/Ferris-wheel.png" alt="Ferris-wheel" class="img-responsive img-rounded">
+                             <div class="caption">
+                                <p class="text-center white">   <span class="code">&lt;</span>Ferris Wheel
+                                    <span class="code"> &#47;&gt;</span></p>
+                             </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                <button class="btn btn-lg btn-warning">
+                    <a href="show-all.html" class="white">Show all <i class="fa-solid fa-angle-right"></i></a>
+                </button>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid">
+            <section id="contact">
+                <div class="contacts">
+                    <div class="panel">
+                        <div class="panel-head">
+                <h1 class="white text-center">Let's work together...</h1>
+                        </div>
+                        <div class="panel-body">
+                <p class="white text-center">
+                    You can contact me via any of the following channels:
                 </p>
-            </a>
-            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project-link project-tile">
-                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="Javascript Calculator"
-                class="project-img">
-                <p class="project-tile">
-                    <span class="code">&lt;</span>
-            Javascript Calculator
-            <span class="code">&#47;&gt;</span>
+                <ul class="social text-center">
+                    <li>
+                        <a href="https://www.facebook.com/nwabueze.einsteinokemini" target="_blank" id="profile-link">
+                            <i class="fa fa-facebook-square"></i> facebook
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a href="https://github.com/NwabuezeM" target="_blank" id="profile-link">
+                            <i class="fa fa-github"></i> Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/NwabuezeWisdom4?s=20" target="_blank" id="profile-link">
+                            <i class="fa fa-twitter"></i> Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://okemininwabueze9@gmail.com" target="_blank" id="profile-link">
+                            <i class="fa fa-at"></i> Send a mail
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/+2347014126583" target="_blank" id="profile-link">
+                            <i class="fab fa-whatsapp"></i> Whatsapp
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+2347014126583" target="_blank" id="profile-link">
+                            <i class="fa fa-phone"></i> Call me
+                        </a>
+                    </li>
+                </ul>
+                        </div>
+                    </div>
+            </div>
+            </section>
+            <footer>
+                <p class="white">
+                  <i class="fa fa-copyright"></i> Created by Okemini Nwabueze W 
                 </p>
-            </a>
-            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project-link project-tile">
-                <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="Random Quote Machine"
-                class="project-img">
-                <p class="project-tile">
-                    <span class="code">&lt;</span>
-            Random Quote Machine
-            <span class="code">&#47;&gt;</span>
-                </p>
-            </a>
-            <a href="Reg_form.html" target="_blank" class="project-link project-tile">
-                <img src="https://i.ibb.co/2SFqQpr/Reg-form.png" alt="Registration page image"
-                class="project-img">
-                <p class="project-tile">
-                    <span class="code">&lt;</span>
-            Registration Form
-            <span class="code">&#47;&gt;</span>
-                </p>
-            </a>
-            <a href="pseudo_class.html" target="_blank" class="project-link project-tile">
-                <img src="https://i.ibb.co/VSBKHJ4/balance-sheet.png" alt="Balance sheet"
-                class="project-img">
-                <p class="project-tile">
-                    <span class="code">&lt;</span>
-            Balance Sheet
-            <span class="code">&#47;&gt;</span>
-                </p>
-            </a>
-            <a href="camper_cafe.html" target="_blank" class="project-link project-tile">
-                <img src="https://i.ibb.co/HDFPMwn/Camper-cafe.png" alt="Wikipedia viewer"
-                class="project-img">
-                <p class="project-tile">
-                    <span class="code">&lt;</span>
-            Camper Cafe
-            <span class="code">&#47;&gt;</span>
-                </p>
-            </a>
-    </div>
-    <button>
-        <a href="show-all.html">Show all <i class="fa-solid fa-angle-right"></i></a>
-    </button>
-    </section>
-    <section id="contact">
-        <div class="contacts">
-        <h1>Let's work together...</h1>
-        <p>
-            You can contact me via any of the following channels:
-        </p>
-        <ul class="social">
-            <li>
-                <a href="https://www.facebook.com/nwabueze.einsteinokemini" target="_blank" id="profile-link">
-                    <i class="fa fa-facebook-square"></i> facebook
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/NwabuezeM" target="_blank" id="profile-link">
-                    <i class="fa fa-github"></i> Github
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/NwabuezeWisdom4?s=20" target="_blank" id="profile-link">
-                    <i class="fa fa-twitter"></i> Twitter
-                </a>
-            </li>
-            <li>
-                <a href="https://okemininwabueze9@gmail.com" target="_blank" id="profile-link">
-                    <i class="fa fa-at"></i> Send a mail
-                </a>
-            </li>
-            <li>
-                <a href="https://wa.me/+2347014126583" target="_blank" id="profile-link">
-                    <i class="fab fa-whatsapp"></i> Whatsapp
-                </a>
-            </li>
-            <li>
-                <a href="tel:+2347014126583" target="_blank" id="profile-link">
-                    <i class="fa fa-phone"></i> Call me
-                </a>
-            </li>
-        </ul>
-    </div>
-    </section>
-    <footer>
-        <p>
-          <i class="fa fa-copyright"></i> Created by Okemini Nwabueze W 
-        </p>
-        <a href="#">Back to top</a>
-    </footer>
+                <a href="#">Back to top</a>
+            </footer>
+        </div>
 </body>
 </html>
