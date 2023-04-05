@@ -1,77 +1,77 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     background-color: gray;
+}
+.panel{
+    background-color: grey;
+}
+.caption{
+    background-color: #00009c;
+    font-size: 14pt;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.btn a:hover{
+    color: brown;
+}
+.page-header{
+    margin-top: 30px;
     color: aliceblue;
 }
-nav{
-    height: 50px;
-    width: 100%;
-    background-color: brown;
-    padding: 20px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
+.jumbotron h1{
+    font-size: 36pt;
 }
-nav a{
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 16pt;
+.jumbotron p{
+    font-size: 24pt;
 }
-nav a:hover{
-    color: blue;
-}
-.project-link{
-    box-shadow: 2px #8470ff;
-    border-radius: 3px;
-}
-#projects{
-    position: relative;
-    top: 0;
-    background: gray;
-    padding: 20px;
-    text-align: center;
-    margin-top: 100px;
-}
-.project-img{
-    width: 320px;
-    height: 300px;
-    object-fit: cover;
-}
-.project-container{
-    padding: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-top: 18px;
-}
-.projects-desc{
-    width: fit-content;
-    margin: 0 auto;
-    color: aliceblue;
-    border-bottom: 1px solid aliceblue;
-}
-.desc{
-    position: relative;
-    top: 12px;
-}
-.project-title{
-    padding: 5px;
-    text-decoration: none;
-    font-size: 16pt;
+.white{
     color: aliceblue;
 }
 .code{
-    color: gray;
+    color: #00009c;
     transition: 0.4s ease-in-out;
 }
-.project-container:hover .code{
+.row:hover .code{
     color: orange;
+}
+#contact{
+    border-bottom: 5px solid tomato;
+}
+.row a, .btn a{
+    text-decoration: none;
+}
+.contacts h1{
+    font-size: 36pt;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.contacts p{
+    font-size: 14pt;
+    font-style: italic;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social li{
+    list-style: none;
+    padding: 10px;
+    transition: 0.4s ease-in-out;
+}
+.social a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.social li:hover{
+    font-size: 16pt;
 }
 footer p{
     display: flex;
     justify-content: flex-end;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
+    color: aliceblue;
 }
 footer a{
     display: flex;
@@ -82,10 +82,23 @@ footer a{
     text-align: center;
     margin-top: 0;
 }
-
 @media only screen and (max-width: 550px){
-    .project-container{
-        display: block;
-        margin-bottom: 0;
+  #welcome-section{
+    width: 100%;
+  }
+    .social{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .contacts{
+        width: 100%;
+    }
+}
+@media only screen and(max-width: 480px){
+    #contacts{
+        width: 100%;
+    }
+    .social li{
+        padding: 3px;
     }
 }
