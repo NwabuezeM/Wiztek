@@ -1,137 +1,54 @@
 html{
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 body{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: #6c7b8b;
-    color: aliceblue;
+    background-color: gray;
 }
-#navbar{
-    width: 100%;
-    height: 50px;
-    background-color: brown;
-    position: fixed;
-    top: 0;
-    z-index: 1;
+.panel{
+    background-color: grey;
 }
-.fa-bars{
-    position: absolute;
-    display: none;
-color: blue;
-font-size: 20pt;
-padding: 20px;
-}
-nav ul{
-display: flex;
-justify-content: flex-end;
-align-items: center;
-margin-right: 3%
-}
-nav li{
-    list-style: none;
-    padding: 0 10px 10px 10px;
-}
-nav a{
-    text-align: center;
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 16pt;
-}
-nav li:hover{
-    background-color: #838b8b;
-}
-#welcome-section{
-    background-color: #556b2f;
-    color: aliceblue;
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-}
-.welcome-section{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.small-text{
-    font-size: 16pt;
-    color: tomato;
-    font-weight: normal;
-}
-.big-text{
-    font-size: 36pt;
-}
-button{
-    padding: 10px;
-    background-color: orange;
+.caption{
+    background-color: #00009c;
+    font-size: 14pt;
+    margin-top: 10px;
     border-radius: 5px;
-    border: none;
-    margin-bottom: 30px;
 }
-button a{
-    text-decoration: none;
-    font-size: 12pt;
+.btn a:hover{
+    color: brown;
+}
+.nav a{
     color: aliceblue;
+    font-size: 14pt;
 }
-.project-link{
-    box-shadow: 2px #8470ff;
-    border-radius: 3px;
+.nav a:hover{
+    color: brown;
 }
-#projects{
-    background: gray;
-    padding: 20px;
-    text-align: center;
+.navbar-brand{
+    color: white;
+    letter-spacing: 5px;
 }
-.project-img{
-    width: 320px;
-    height: 300px;
-    object-fit: cover;
+.navbar-brand:hover{
+    background-color: aliceblue;
+    color: brown;
 }
-.project-container{
-    padding: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-top: 18px;
+.jumbotron{
+    height: 100vh;
 }
-.projects-desc{
-    width: fit-content;
-    margin: 0 auto;
-    color: aliceblue;
-    border-bottom: 1px solid aliceblue;
-}
-.desc{
-    position: relative;
-    top: 12px;
-}
-.project-tile{
-    padding: 5px;
-    text-decoration: none;
-    font-size: 16pt;
+.white{
     color: aliceblue;
 }
 .code{
-    color: gray;
+    color: #00009c;
     transition: 0.4s ease-in-out;
 }
-.project-container:hover .code{
+.row:hover .code{
     color: orange;
 }
 #contact{
     border-bottom: 5px solid tomato;
-
 }
-.contacts{
-    width: 60%;
-    margin: 0 auto;
-    display: grid;
-    justify-content: center;
-    text-align: center;
+.row a, .btn a{
+    text-decoration: none;
 }
 .contacts h1{
     font-size: 36pt;
@@ -144,10 +61,12 @@ button a{
 }
 .social{
     display: flex;
+    justify-content: center;
 }
 .social li{
     list-style: none;
     padding: 10px;
+    transition: 0.4s ease-in-out;
 }
 .social a{
     text-decoration: none;
@@ -155,7 +74,6 @@ button a{
 }
 .social li:hover{
     font-size: 16pt;
-    transition: 0.4 s ease-in-out;
 }
 footer p{
     display: flex;
@@ -188,7 +106,7 @@ footer a{
     }
     nav ul{
         display: flex;
-        margin: 6px;
+        margin: 10px;
     }
     nav li{
         padding: 5px;
