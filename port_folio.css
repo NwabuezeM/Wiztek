@@ -36,13 +36,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 .jumbotron h1{
     font-size: 36pt;
+    color: green;
 }
 .jumbotron p{
     font-size: 24pt;
+    color: black;
 }
 .white{
     color: aliceblue;
