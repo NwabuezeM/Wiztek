@@ -31,6 +31,13 @@ body{
     background-color: aliceblue;
     color: brown;
 }
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 .jumbotron h1{
     font-size: 36pt;
 }

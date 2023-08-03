@@ -4,6 +4,14 @@ html{
 body{
     background-color: gray;
 }
+.navbar-brand {
+    font-size: 32px;
+    color: white;
+  }
+  .navbar-brand:hover {
+    color: brown;
+    text-decoration: underline;
+  } 
 .panel{
     background-color: grey;
 }
