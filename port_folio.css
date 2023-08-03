@@ -103,6 +103,14 @@ footer a{
   #welcome-section{
     width: 100%;
   }
+
+  .jumbotron h1 {
+    font-size: 24pt;
+  }
+
+  .jumbotron p {
+    font-size: 14pt;
+  }
     .social{
         display: grid;
         grid-template-columns: auto auto auto;
