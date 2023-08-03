@@ -6,10 +6,11 @@ body{
 }
 .navbar-brand {
     font-size: 32px;
-    color: white;
+    color: tomato;
+    text-decoration: underline;
   }
   .navbar-brand:hover {
-    color: brown;
+    color: blue;
     text-decoration: underline;
   } 
 .panel{
