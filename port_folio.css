@@ -37,6 +37,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.jumbotron {
+    background-color: #ece4d8;
+}
 .jumbotron h1{
     font-size: 36pt;
     color: green;
@@ -111,6 +114,7 @@ footer a{
 
   .jumbotron p {
     font-size: 14pt;
+    font-weight: 600;
   }
     .social{
         display: grid;
